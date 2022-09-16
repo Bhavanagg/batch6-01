@@ -1,10 +1,10 @@
-#Author: your.email@your.domain.com
-Feature: Test the amazon website
+#Author: bhavanareddy@gmail.com
+Feature: Testing the amazon website
 @Ts1
 Scenario Outline: Test amazon website
-  Given open chrome browser and amazon website
-  When Enter emailid "divya@gmail.com"
-  And Enter the password "1234"
+  Given open chrome  and amazon website
+  When Enter emailid "bhanu@gmail.com"
+  And Enter the password "bhanu12"
   Then select the product for purchase
   Then Check for validation
 @Ts2
@@ -17,19 +17,19 @@ Scenario Outline: Test amazon website
   
   Examples:
     |emailID                ||password|
-    |kavyagoluguri@gmail.com||123456  |
+    |bhavanareddy@gmail.com||bhavana@123  |
  @Ts3
  Scenario Outline: Test amazon website
   Given open chrome browser and amazon website
   When Enter emailid and password
    
      |emailId           ||password|
-     |kavya@gmail.com   ||1234    |
-     |sravya@gmail.com  ||456     |
-     |divya@gmail.com   ||123     |
-     |navya@gmail.com   ||123456  |
-     |bhavya@gmail.com  ||12345   |
-     |ravya@gmail.com   ||12348   |
+     | bhanu@gmail.com ||bhanu12   |
+     |bhavanareddy@gmail.com  || bhavana@123    |
+     |ramya@gmail.com   ||ram08     |
+     |saikiran@gmail.com   ||sai12  |
+     |likki@gmail.com  ||likki123   |
+     |lucky@gmail.com   ||lucky123 |
   Then select the product for purchase
   Then Check for validation
  
